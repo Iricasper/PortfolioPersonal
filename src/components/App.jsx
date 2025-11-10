@@ -1,5 +1,4 @@
-//import logo from "./logo.svg"
-import "../styles/App.css"
+// import "../styles/App.css"
 import Certificados from "./Certificados"
 import Contacto from "./Contacto"
 import Experiencia from "./Experiencia"
@@ -12,6 +11,7 @@ import SobreMi from "./SobreMi"
 function App() {
   return (
     <div className="App">
+      <h2>Iris Castro Pérez</h2>
       <SobreMi />
       <Formacion />
       <Experiencia />

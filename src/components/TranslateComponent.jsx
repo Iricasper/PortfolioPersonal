@@ -14,13 +14,12 @@ const TranslateComponent = () => {
         clearInterval(intervalId)
         new window.google.translate.TranslateElement(
           {
-            pageLanguage: "en",
+            pageLanguage: "es",
             autoDisplay: true,
             multilanguagePage: true,
-            includedLanguages:
-              "es,en,fr,de,it,pt",
+            includedLanguages: "es,en,fr,de,it,pt",
             layout:
-              window.google.translate.TranslateElement.InlineLayout.SIMPLE,
+              window.google.translate.TranslateElement.InlineLayout.VERTICAL,
           },
           googleTranslateRef.current
         )
@@ -30,11 +29,7 @@ const TranslateComponent = () => {
     return () => clearInterval(intervalId)
   }, [])
 
-  return (
-    <div>
-      <div ref={googleTranslateRef}></div>
-    </div>
-  )
+  return <div ref={googleTranslateRef}></div>
 }
 
 export default TranslateComponent
