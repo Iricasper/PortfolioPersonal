@@ -1,11 +1,25 @@
 //import logo from "./logo.svg"
 import "../styles/App.css"
+import Certificados from "./Certificados"
+import Contacto from "./Contacto"
+import Experiencia from "./Experiencia"
+import Formacion from "./Formacion"
+import Habilidades from "./Habilidades"
+import Idiomas from "./Idiomas"
+import Proyectos from "./Proyectos"
+import SobreMi from "./SobreMi"
 
 function App() {
   return (
     <div className="App">
-      <h1>Hola mundo</h1>
-      <p>Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro. Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no te cabe parte dellas.Y, viéndole don Quijote de aquella manera, con muestras de tanta tristeza, le dijo: Sábete, Sancho, que no es un hombre más que otro si no hace más que otro. Todas estas borrascas que nos suceden son señales de que presto ha de serenar el tiempo y han de sucedernos bien las cosas; porque no es posible que el mal ni el bien sean durables, y de aquí se sigue que, habiendo durado mucho el mal, el bien está ya cerca. Así que, no debes congojarte por las desgracias que a mí me suceden, pues a ti no</p>
+      <SobreMi />
+      <Formacion />
+      <Experiencia />
+      <Habilidades />
+      <Certificados />
+      <Idiomas />
+      <Proyectos />
+      <Contacto />
     </div>
   )
 }

@@ -14,7 +14,7 @@ const TranslateComponent = () => {
         clearInterval(intervalId)
         new window.google.translate.TranslateElement(
           {
-            pageLanguage: "es",
+            pageLanguage: "en",
             autoDisplay: true,
             multilanguagePage: true,
             includedLanguages:
