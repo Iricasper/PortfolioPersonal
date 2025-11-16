@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <ul style={{ display: "flex", gap: "10px", listStyle: "none" }}>
+        <ul>
           <li> <a href="#sobre-mi">Sobre mí</a> </li>
           <li> <a href="#formacion">Formación</a> </li>
           <li> <a href="#experiencia">Experiencia</a> </li>
